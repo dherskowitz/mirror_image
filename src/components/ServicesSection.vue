@@ -98,6 +98,7 @@ export default {
 }
 .services__image {
   width: 50%;
+  height: 100%;
 }
 @media (max-width: 1030px) {
   .services {
