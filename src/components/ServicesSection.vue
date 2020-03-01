@@ -97,7 +97,7 @@ export default {
   font-size: 1.25em;
 }
 .services__image {
-  width: 50%;
+  min-width: 50%;
   height: 100%;
 }
 @media (max-width: 1030px) {
