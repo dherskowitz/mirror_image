@@ -63,12 +63,12 @@ export default {
   },
   created() {
     if (process.isClient) {
-      Window.addEventListener("scroll", this.handleScroll);
+      window.addEventListener("scroll", this.handleScroll);
     }
   },
   destroyed() {
     if (process.isClient) {
-      Window.removeEventListener("scroll", this.handleScroll);
+      window.removeEventListener("scroll", this.handleScroll);
     }
   }
 };
