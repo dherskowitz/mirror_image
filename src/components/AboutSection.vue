@@ -39,6 +39,10 @@ export default {
   padding: 0.5em;
   font-size: 1.3em;
 }
+.section__about span {
+  grid-column: 3 /-1;
+  grid-row: 1/4;
+}
 .section__image {
   grid-column: span 2 / -1;
   grid-row: 1/4;
